@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+*.env
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# macOS files
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Bytecode and logs
+*.log
+
+# MyPy, coverage, test reports
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# SQLite files (in case you test locally with SQLite before RDS)
+*.sqlite3
+*.db
+
+# AWS CLI cache
+.aws/cli/cache/
